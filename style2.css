@@ -1,0 +1,68 @@
+#board{
+    width: 30em;
+    height: 30em;
+    background-color: lightblue;    
+}
+#board > div{
+    position: absolute;
+}
+#buttons{
+    background-color: lightblue;
+    display: flex;
+
+}
+#buttons > div{
+    margin: 1em;
+}
+.square1, .square2 {
+    width: 6em;
+    height: 6em;
+    position: relative;
+    margin: auto;
+}
+
+.square1, .square1 span {
+    background-color: #0284cf; 
+}
+
+.square2, .square2 span {
+    background-color: #00008B; 
+}
+
+.square1 .t, .square2 .t {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: -1.1em;
+    left: 2em;
+    border-radius: 4em;
+}
+
+.square1 .r, .square2 .r {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 2em;
+    left: 5em;
+    border-radius: 4em;
+}
+
+.square1 .b, .square2 .b { 
+    width: 1.8em;
+    height: 1.8em;
+    position: absolute;
+    top: 5.1em;
+    left: 2.2em;
+    border-radius: 4em;
+    background-color: lightblue;
+}
+
+.square1 .l, .square2 .l { 
+    width: 1.8em;
+    height: 1.8em;
+    position: absolute;
+    top: 2.2em;
+    left: -1em;   
+    border-radius: 4em;
+    background-color: lightblue;
+}
